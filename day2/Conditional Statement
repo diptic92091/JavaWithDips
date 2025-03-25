@@ -1,0 +1,58 @@
+package day2;
+
+public class Conditional_statements
+
+{
+	public static void main(String[] args) 
+	
+	{
+		
+		        int a = 25; 
+
+		      
+		        if (a == 0)
+		        
+		        {
+		            System.out.println("The number is zero.");
+		        }
+		       
+		        else if (a % 2 == 0)
+		        
+		        {
+		            System.out.println("The number is even.");
+
+		            
+		            if (a > 0) 
+		            {
+		                System.out.println("It's a positive even number.");
+		            } 
+		            
+		            else
+		            	
+		            {
+		                System.out.println("It's a negative even number.");
+		            }
+		        }
+		       
+		        else {
+		            System.out.println("The number is odd.");
+
+		            
+		            if (a > 0) 
+		            	
+		            {
+		                System.out.println("It's a positive odd number.");
+		            } 
+		            
+		            else 
+		            
+		            {
+		                System.out.println("It's a negative odd number.");
+		            }
+		        }
+		    }
+		}
+
+	
+	
+	
