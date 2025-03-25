@@ -1,0 +1,48 @@
+package day2;
+
+public class Switching_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		        String day = "monday";  
+
+		        int dayNumber;
+
+		        switch (day.toLowerCase()) {
+		            case "sunday":
+		                dayNumber = 1;
+		                break;
+		            case "monday":
+		                dayNumber = 2;
+		                break;
+		            case "tuesday":
+		                dayNumber = 3;
+		                break;
+		            case "wednesday":
+		                dayNumber = 4;
+		                break;
+		            case "thursday":
+		                dayNumber = 5;
+		                break;
+		            case "friday":
+		                dayNumber = 6;
+		                break;
+		            case "saturday":
+		                dayNumber = 7;
+		                break;
+		            default:
+		                dayNumber = -1;  
+		                System.out.println("Invalid day name");
+		                return;
+		        }
+
+		        System.out.println("The day number is: " + dayNumber);
+		    }
+	
+
+		
+		
+	}
+
