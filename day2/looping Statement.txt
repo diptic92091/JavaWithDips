@@ -1,0 +1,34 @@
+package day2;
+
+public class Looping_statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//While loop
+		System.out.println("WHILE  ");
+		int i = 1; 
+        while (i <= 5) 
+        {
+            System.out.println(i);
+            i++; 
+        }
+        //DO while
+        System.out.println("DO-WHILE  ");
+        do 
+        {
+            System.out.println(i);
+            i++; 
+        } 
+        while (i <= 5);
+		
+        //for loop
+        
+        System.out.println("FOR LOOP  ");
+        for (i = 1; i <= 5; i++) 
+        {
+            System.out.println(i);
+	}
+}
+
+}
