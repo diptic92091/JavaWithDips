@@ -1,0 +1,31 @@
+package day4;
+
+public class Referencee_Variable {
+
+    int a;
+    float b;
+    char c;
+
+    
+    void addnew(int x, float y, char z) {
+        a = x;
+        b = y;
+        c = z;
+    }
+
+    
+    void display() {
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+    }
+
+    public static void main(String[] args) {
+      
+        Referencee_Variable obj = new Referencee_Variable();
+
+        obj.addnew(80, 34.65f, 'D');
+
+        obj.display();
+    }
+}
