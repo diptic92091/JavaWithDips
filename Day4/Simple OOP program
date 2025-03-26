@@ -1,0 +1,39 @@
+package day4;
+
+public class OOps_program {
+	
+	
+	
+	 int   a;
+	 float b;
+	 char  c;
+	 
+	 
+	 void display()
+	 {
+		 
+		 System.out.println(a);	
+		 System.out.println(b);	
+		 System.out.println(c);	
+	 
+	 
+	 }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		OOps_program MP = new OOps_program();
+		
+		MP.a=10;
+		MP.b=45.98f;
+		MP.c='D';
+		
+		MP.display();
+  
+   
+		
+
+
+	}
+
+}
