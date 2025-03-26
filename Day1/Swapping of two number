@@ -1,0 +1,28 @@
+package day1;
+
+public class swapping_of_two_number {
+	public static void main(String[] args) {
+
+	int a = 100 , b=200 , temp ;
+	 temp =a;
+	 a=b;
+	 b=temp;
+	 System.out.println(a);
+	 System.out.println(b);
+	 
+	 System.out.println("Without third variable");
+	 int X = 5;
+     int Y = 10;
+
+     System.out.println("Before swapping: a = " + X + ", Y = " + Y);
+
+     // Swapping logic
+     X = X + Y; 
+     Y = X - Y; 
+     X = X - Y;
+
+     System.out.println("AFTER swapping: a = " + X + ", Y = " + Y);
+	 
+		
+}
+}
