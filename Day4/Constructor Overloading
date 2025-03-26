@@ -1,0 +1,41 @@
+package day4;
+
+public class ConstructorOverloading {  
+
+    int a;
+    float b;
+
+    
+    ConstructorOverloading() {
+        a = 0;
+        b = 0.0f;
+    }
+
+    ConstructorOverloading(int x) {
+        a = x;
+        b = 0.0f;
+    }
+
+    ConstructorOverloading(int x, float y) {
+        a = x;
+        b = y;
+    }
+
+    void display() {
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+
+    public static void main(String[] args) {
+    	
+        ConstructorOverloading obj1 = new ConstructorOverloading();   
+        
+        obj1.display();
+
+        ConstructorOverloading obj2 = new ConstructorOverloading(10);        
+        obj2.display();
+
+        ConstructorOverloading obj3 = new ConstructorOverloading(10, 20.5f); 
+        obj3.display();
+    }
+}
