@@ -1,0 +1,42 @@
+package day5;
+
+
+
+class P {
+    int a = 20;
+
+    void display() {
+        System.out.println(a);
+    }
+}
+
+class Q extends P {
+    int b = 30;
+
+    void sumB() {
+        System.out.println(b);
+    }
+}
+
+class R extends Q {
+    int c = 40;
+
+    void sumC() {
+        System.out.println(c);
+    }
+}
+
+
+public class MultiLevel_inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		R abc = new R();
+		abc.sumC();
+		abc.sumB();
+		abc.display();
+		
+	}
+
+}
