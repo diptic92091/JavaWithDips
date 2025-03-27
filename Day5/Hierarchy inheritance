@@ -1,0 +1,45 @@
+package day5;
+
+
+class X {
+    int p = 20;
+
+    void display() {
+        System.out.println(p);
+    }
+}
+
+class Y extends X {
+    int q = 30;
+
+    void sumY() {
+        System.out.println(q);
+    }
+}
+
+class Z extends X {
+    int r = 40;
+
+    void sumZ() {
+        System.out.println(r);
+    }
+}
+public class Hierarchy_inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Y extdB = new Y();
+	        Z extdC = new Z();
+	        
+	       
+	        extdB.display();
+	        extdB.sumY();
+	        
+	        
+	        extdC.display();
+	        extdC.sumZ();
+
+	}
+
+}
