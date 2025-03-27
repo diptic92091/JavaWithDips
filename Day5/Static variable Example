@@ -1,0 +1,26 @@
+package day5;
+
+public class Static_example2 {
+
+	static void m1 ()
+	{
+		System.out.println("This is a static method");
+		
+	}
+	
+	void m2()
+	{
+		
+		System.out.println("This is a not static method");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Static_example2 SE = new Static_example2();
+		SE.m2();
+		System.out.println("This is a static method");
+	}
+
+}
