@@ -1,0 +1,40 @@
+package day6;
+
+
+interface I1
+{
+   int X = 20;
+   void m1();
+
+}
+
+interface I2
+{
+	
+  int Y = 30;
+  void m2();
+
+}
+public class Multiple_inheritance implements I1,I2 {
+	public void m1()
+	{
+		
+		System.out.println("This is method M1");
+	}
+	
+	public void m2()
+	{
+		
+		System.out.println("This is method M2");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Multiple_inheritance MI = new Multiple_inheritance();
+		MI.m1();
+		MI.m2();
+	}
+
+}
