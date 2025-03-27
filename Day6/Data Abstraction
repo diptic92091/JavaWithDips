@@ -1,0 +1,35 @@
+package day6;
+
+
+interface shape 
+{
+   int a = 20;
+   int b = 30;
+   
+   void circle();
+
+   default void rectangle()
+   {
+	   System.out.println("This rectangle is a default method");
+	   
+   }
+}
+public class DataAbstraction implements shape{
+	
+	public void circle()
+	{
+		
+		 System.out.println("This is a traingle");
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		DataAbstraction DA = new DataAbstraction();
+		DA.circle();
+		DA.rectangle();
+				
+	}
+
+}
