@@ -1,0 +1,42 @@
+package day6;
+
+
+interface D1
+{
+    int X = 20;
+    void m1();
+}
+
+interface D2
+{
+    int Y = 30;
+    void m2();
+}
+
+class Parent
+{
+    public void parentMethod() 
+    {
+        System.out.println("This is a method from the Parent class.");
+    }
+}
+
+public class Hybrid_inheritance extends Parent implements D1, D2 {
+
+    public void m1() 
+    {
+        System.out.println("This is method M1 from I1 interface.");
+    }
+
+    public void m2() {
+        System.out.println("This is method M2 from I2 interface.");
+    }
+
+    public static void main(String[] args) {
+        Hybrid_inheritance HI = new Hybrid_inheritance();
+        
+        HI.parentMethod();  
+        HI.m1();            
+        HI.m2();           
+    }
+}
