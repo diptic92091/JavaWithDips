@@ -1,0 +1,26 @@
+package day7;
+
+class Tree {
+    String S = "Apple";
+
+    public void displayTreeInfo() {
+        System.out.println("Apple's Tree ");
+    }
+}
+
+class Fruit extends Tree {
+    String S1 = "Apple";
+
+
+    public void displayFruitInfo() {
+        System.out.println("Fruit Name: Apple ");
+    }
+}
+
+public class Single_inheritance {
+    public static void main(String[] args) {
+    	Fruit FE = new Fruit();
+        FE.displayFruitInfo();
+        FE.displayTreeInfo();
+    }
+}
