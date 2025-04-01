@@ -1,0 +1,40 @@
+package day7;
+
+
+interface soiltype1{
+	
+	
+	void s1();
+}
+
+interface soiltype2{
+	
+	
+	void s2();
+}
+public class Multiple_inheritance implements soiltype1,soiltype2 {
+	
+	public void s1()
+	{
+		
+		System.out.println("Soil type is : Black soil");
+		
+	}
+
+	public void s2()
+	{
+		
+		System.out.println("Soil type is : Brown Soil");
+		
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Multiple_inheritance MI = new Multiple_inheritance();
+		 MI.s1();
+		 MI.s2();
+
+	}
+
+}
