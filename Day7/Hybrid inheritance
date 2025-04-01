@@ -1,0 +1,44 @@
+package day7;
+
+interface soil_type1{
+	
+	void s1();
+	
+}
+
+interface soil_type2{
+	
+	
+	void s2();
+}
+
+class Tree3
+{
+    public void Treehight() 
+    {
+        System.out.println("The tree looks big");
+    }
+}
+
+public class Hybrid_inheritance extends Tree implements soil_type1,soil_type2 {
+	
+	public void s1() {
+		
+		System.out.println("The soil type is WhiteSoil");
+	}
+
+	public void s2() {
+		
+		System.out.println("The soil type is Redsoil");
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Hybrid_inheritance HI = new Hybrid_inheritance();
+		HI.s1();
+		HI.s2();
+		
+	}
+
+}
