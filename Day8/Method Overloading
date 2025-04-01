@@ -1,0 +1,43 @@
+package day8;
+
+public class Method_overloading {
+
+	int a;
+	int b;
+	int g;
+	
+	void sum (int c , int d)
+	{
+		a=c;
+		b =d;
+		
+	}
+	
+	void sum (int c , int d ,int f)
+	{
+		
+		a=c;
+		b=d;
+		g=f;
+		
+	}
+	
+	void display()
+	{
+		
+		System.out.println(a+b+g);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Method_overloading obj = new Method_overloading();
+	        
+	        obj.sum(10, 20);
+	        obj.display();  
+
+	        obj.sum(10, 20, 30);
+	        obj.display();
+
+	}
+}
