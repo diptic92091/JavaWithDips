@@ -1,0 +1,37 @@
+package day7;
+
+class Tree1 {
+ String S = "Apple";
+
+ public void displayTreeInfo() {
+     System.out.println("Apple's Tree ");
+ }
+}
+
+
+class Fruit1 extends Tree1 {
+ String S1 = "Apple";
+
+ public void displayFruitInfo() {
+     System.out.println("Fruit Name: Apple ");
+ }
+}
+
+class Orange extends Fruit1 {
+ String S2 = "Citrus";
+
+ public void displayCitrusInfo() {
+     System.out.println("Citrus Variety: Orange");
+ }
+}
+
+public class Multi_level_inheritance {
+ public static void main(String[] args) {
+     Orange OR = new Orange();
+
+     OR.displayTreeInfo();      
+     OR.displayFruitInfo();     
+     OR.displayCitrusInfo();    
+ }
+}
+
