@@ -1,0 +1,21 @@
+package day8;
+
+public class This_keyword {
+    String name;
+
+    
+   void keyword(String name) {
+        this.name = name; 
+    }
+
+    
+    void display() {
+        System.out.println("World best Cricketer is : " + this.name); 
+    }
+
+    public static void main(String[] args) {
+        This_keyword cricketer = new This_keyword();
+        cricketer.name="Virat ";
+        cricketer.display();
+    }
+}
