@@ -1,0 +1,37 @@
+package day7;
+
+class Tree2 {
+ String S = "Apple";
+
+ public void displayTreeInfo() {
+     System.out.println("Apple's Tree ");
+ }
+}
+class Fruit2 extends Tree {
+ String S1 = "Apple";
+
+ public void displayFruitInfo() {
+     System.out.println("Fruit Name: Apple ");
+ }
+}
+
+class Fruit3 extends Tree {
+ String S2 = "Mango";
+
+ public void displayFruitInfo() {
+     System.out.println("Mango is a fruit.. ");
+ }
+}
+
+public class Hirarchical_inheritance {
+ public static void main(String[] args) {
+     Fruit apple = new Fruit();
+     apple.displayTreeInfo();   
+     apple.displayFruitInfo(); 
+
+   
+     Fruit3 FR = new Fruit3();
+     FR.displayTreeInfo();    
+     FR.displayFruitInfo();
+ }
+}
