@@ -1,0 +1,26 @@
+package day11;
+
+public class Data_converting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String D1 ="30";
+		String D2 ="20";
+		
+		System.out.println(Integer.parseInt(D1)+Integer.parseInt(D2) );
+		
+		String D3 ="50.00";
+		String D4 ="40.00";
+		System.out.println(Double.parseDouble(D3)+Double.parseDouble(D4));
+		
+		String D ="True";
+		String DI ="Hello";
+		
+		
+      
+		System.out.println(Boolean.parseBoolean(D) );
+		System.out.println(Boolean.parseBoolean(DI) );
+	}
+
+}
