@@ -1,0 +1,24 @@
+package day10;
+
+public class Arithmatic_exception {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		try 
+		{
+			System.out.println(100/0);
+		}
+		catch(Exception e) 
+		{
+			System.out.println("This is an artithmatic exception error");
+			
+		}
+		finally 
+		{
+            System.out.println("This block is always executed.");
+        }
+	}
+
+}
