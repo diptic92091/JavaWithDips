@@ -1,0 +1,14 @@
+package day11;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Data_encapsulation DE = new Data_encapsulation();
+		DE.set_age(21);
+		System.out.println(DE.get_age());
+
+	}
+
+}
