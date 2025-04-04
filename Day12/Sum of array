@@ -1,0 +1,21 @@
+package day12;
+
+public class SumOfArray {
+
+	
+	    public static void main(String[] args) {
+	    	// TODO Auto-generated method stub
+	    	
+	        int[] numbers = {5, 5, 5, 5, 5}; 
+	        int sum = 0;
+
+	        for (int num : numbers)
+	        {
+	            sum += num;
+	        }
+
+	        System.out.println("The sum of the array elements is: " + sum);
+	    }
+	}
+
+	
