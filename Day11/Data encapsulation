@@ -1,0 +1,18 @@
+package day11;
+
+public class Data_encapsulation {
+	
+	private int age;
+	
+	void set_age(int age)
+	{
+		
+		this.age =age;
+	}
+
+	int get_age()
+	{
+		
+		return age;
+	}
+}
