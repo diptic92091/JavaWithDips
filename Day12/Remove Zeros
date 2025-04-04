@@ -1,0 +1,17 @@
+package day12;
+
+public class RemoveZeros {
+	
+	
+	    public static void main(String[] args) {
+	    	// TODO Auto-generated method stub
+	    	
+	        String S = "00012345000";
+	        
+	        int result = Integer.parseInt(S);
+
+	        System.out.println("Number after removing leading zeros: " + result);
+	    }
+	}
+
+
