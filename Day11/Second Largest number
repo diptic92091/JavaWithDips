@@ -1,0 +1,36 @@
+package day11;
+
+public class SecondLargestNumber {
+	
+	
+	    public static void main(String[] args) {
+	    	// TODO Auto-generated method stub
+	    	
+	        int[] arr = {10, 60,20, 30, 40, 50,20};
+
+	        int firstLargest = Integer.MIN_VALUE;
+	        int secondLargest = Integer.MIN_VALUE;
+
+	        for (int num : arr) 
+	        {
+	            if (num > firstLargest) 
+	            	
+	            {
+	                secondLargest = firstLargest;  //update first largest value
+	                firstLargest = num;            //update second
+	            } 
+	            
+	            else if (num > secondLargest && num != firstLargest) 
+	            	
+	            {
+	                secondLargest = num;
+	            }
+	        }
+
+	        System.out.println("The second largest number is: " + secondLargest);
+	    }
+			
+
+	}
+
+
