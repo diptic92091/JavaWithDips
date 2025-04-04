@@ -1,0 +1,26 @@
+package day9;
+
+public class ReverseNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+				
+             int num = 987 , rev =0 ,digit;
+		
+		while(num!=0)
+		{
+			
+			digit =num % 10;
+			rev =rev * 10 + digit;
+			num = num/10;
+			
+		}
+		
+		System.out.println(rev);
+		
+	}
+
+	}
+
+
