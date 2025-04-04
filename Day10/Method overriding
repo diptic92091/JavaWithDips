@@ -1,0 +1,38 @@
+package day10;
+
+class Animal 
+{
+  
+    void sound()
+    {
+        System.out.println("Animals make sounds");
+    }
+                                               // Method overloading.
+    void sound(String type) 
+    {
+        System.out.println("This animal is a " + type);
+    }
+}
+
+class Dog extends Animal
+{
+   
+    void sound()                                    // Method overriding.
+    {
+        System.out.println("Dogs bark");
+    }
+}
+
+public class MethodOverriding {
+    public static void main(String[] args) {
+    	
+    	
+        Animal ani = new Animal();
+        ani.sound();               
+        ani.sound("wild");      
+
+        Dog myDog = new Dog();
+        myDog.sound();                  
+        myDog.sound("Domestic Animal");     
+    }
+}
