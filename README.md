@@ -19,7 +19,7 @@ Each folder covers different Java concepts with examples, from basics to advance
 
 Clone the repository:
 
-git clone https://github.com/your-username/java-concepts.git
+git clone 
 
 
 Open in your IDE (IntelliJ / Eclipse / VS Code).
